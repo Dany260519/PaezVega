@@ -114,9 +114,14 @@
             What could we improve?
         </p>
         <form action="https://formsubmit.co/paezvega0703@gmail.com" method="POST">
-            <textarea name="message" placeholder="Tu mensaje" required></textarea>
-            <button type="submit" id="submit">Submit</button>
+            <label for="message">Deja tu comentario anónimo:</label><br>
+            <textarea id="message" name="message" rows="5" placeholder="Escribe aquí tu opinión..." required></textarea>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="Nuevo comentario anónimo">
         </form>
+          
     </div>
 </body>
 </html>
